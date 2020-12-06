@@ -53,7 +53,7 @@ syntax match texLabel /\v<lesson_sound[A-Z]+code[A-Z]+>/
 
 highlight link texLabel Question
 
-source $SBSR/books/packages/sbsr.vim
+"source $SBSR/books/packages/sbsr.vim
 
 "-------------------------------------------------------------------------------
 " Phonemes within comments
