@@ -178,59 +178,59 @@ highlight link texComment Comment
 "-------------------------------------------------------------------------------
 
 " Must not start a line
-syntax match texError /\v^<He>/
-syntax match texError /\v^<His>/
-
-syntax match texError /\v^<Students*/
-syntax match texError /\v^<Teachers*/
-
-" Must be preceded by a backslash
-syntax match texError /\v[^\\]\ze<he>/
-syntax match texError /\v[^\\]\ze<He>/
-
-syntax match texError /\v[^\\]\ze<him>/
-
-syntax match texError /\v[^\\]\ze<his>/
-syntax match texError /\v[^\\]\ze<His>/
-
-syntax match texError /\v[^\\]\ze<himself>/
-
-syntax match texError /\v[^\\]\ze<numberPhonemes>/
-syntax match texError /\v[^\\]\ze<NumberPhonemes>/
-
-syntax match texError /\v[^\\]\ze<student>/
-syntax match texError /\v[^\\]\ze<Student>/
-
-syntax match texError /\v[^\\]\ze<students>/
-syntax match texError /\v[^\\]\ze<Students>/
-
-syntax match texError /\v[^\\]\ze<teacher>/
-syntax match texError /\v[^\\]\ze<Teacher>/
-
-syntax match texError /\v[^\\]\ze<teachers>/
-syntax match texError /\v[^\\]\ze<Teachers>/
-
-" Must not be followed by a space
-syntax match texError /\v\\<he>\zs /
-syntax match texError /\v\\<He>\zs /
-
-syntax match texError /\v\\<him>\zs /
-
-syntax match texError /\v\\<his>\zs /
-syntax match texError /\v\\<His>\zs /
-
-syntax match texError /\v\\<himself>\zs /
-
-syntax match texError /\v\\<numberPhonemes>\zs /
-syntax match texError /\v\\<NumberPhonemes>\zs /
-
-syntax match texError /\v\\<students*>\zs /
-syntax match texError /\v\\<Students*>\zs /
-
-syntax match texError /\v\\<teachers*>\zs /
-syntax match texError /\v\\<Teachers*>\zs /
-
-highlight link texError Error
+"syntax match texError /\v^<He>/
+"syntax match texError /\v^<His>/
+"
+"syntax match texError /\v^<Students*/
+"syntax match texError /\v^<Teachers*/
+"
+"" Must be preceded by a backslash
+"syntax match texError /\v[^\\]\ze<he>/
+"syntax match texError /\v[^\\]\ze<He>/
+"
+"syntax match texError /\v[^\\]\ze<him>/
+"
+"syntax match texError /\v[^\\]\ze<his>/
+"syntax match texError /\v[^\\]\ze<His>/
+"
+"syntax match texError /\v[^\\]\ze<himself>/
+"
+"syntax match texError /\v[^\\]\ze<numberPhonemes>/
+"syntax match texError /\v[^\\]\ze<NumberPhonemes>/
+"
+"syntax match texError /\v[^\\]\ze<student>/
+"syntax match texError /\v[^\\]\ze<Student>/
+"
+"syntax match texError /\v[^\\]\ze<students>/
+"syntax match texError /\v[^\\]\ze<Students>/
+"
+"syntax match texError /\v[^\\]\ze<teacher>/
+"syntax match texError /\v[^\\]\ze<Teacher>/
+"
+"syntax match texError /\v[^\\]\ze<teachers>/
+"syntax match texError /\v[^\\]\ze<Teachers>/
+"
+"" Must not be followed by a space
+"syntax match texError /\v\\<he>\zs /
+"syntax match texError /\v\\<He>\zs /
+"
+"syntax match texError /\v\\<him>\zs /
+"
+"syntax match texError /\v\\<his>\zs /
+"syntax match texError /\v\\<His>\zs /
+"
+"syntax match texError /\v\\<himself>\zs /
+"
+"syntax match texError /\v\\<numberPhonemes>\zs /
+"syntax match texError /\v\\<NumberPhonemes>\zs /
+"
+"syntax match texError /\v\\<students*>\zs /
+"syntax match texError /\v\\<Students*>\zs /
+"
+"syntax match texError /\v\\<teachers*>\zs /
+"syntax match texError /\v\\<Teachers*>\zs /
+"
+"highlight link texError Error
 
 let b:current_syntax = "tex"
 " vim:cc=81
