@@ -13,7 +13,7 @@ syntax keyword bugabooWords then Then
 syntax keyword bugabooWords noticed Noticed
 syntax keyword bugabooWords thought Thought
 syntax keyword bugabooWords wondered Wondered
-highlight link bugabooWords Debug
+highlight link bugabooWords Statement
 
 syntax keyword passiveVerbs is am are was were
 syntax keyword passiveVerbs be being been
@@ -35,6 +35,7 @@ highlight link passiveVerbs Statement
 syntax match infinitiveVerbs /to look/
 syntax match infinitiveVerbs /to speak/
 syntax match infinitiveVerbs /to watch/
+highlight link infinitiveVerbs Statement
 
 syntax keyword activeVerbs  asked
 syntax keyword activeVerbs  bought
