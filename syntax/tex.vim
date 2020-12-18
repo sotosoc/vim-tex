@@ -27,8 +27,8 @@ syntax keyword passiveVerbs Do Does Did
 syntax keyword passiveVerbs Has Have Had
 syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
-syntax keyword passiveVerbs I'm
-syntax keyword passiveVerbs you're You're
+syntax keyword passiveVerbs I'm I've
+syntax keyword passiveVerbs you're You're You've
 syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
 
@@ -45,12 +45,15 @@ syntax keyword activeVerbs  know
 syntax keyword activeVerbs  look
 syntax keyword activeVerbs  looked
 syntax keyword activeVerbs  messaged
+syntax keyword activeVerbs  rested
 syntax keyword activeVerbs  speak
 syntax keyword activeVerbs  spoke
 syntax keyword activeVerbs  tell
+syntax keyword activeVerbs  think
 syntax keyword activeVerbs  told
 syntax keyword activeVerbs  wear
 syntax keyword activeVerbs  wore
+syntax keyword activeVerbs  worn
 highlight link activeVerbs  WarningMsg
 
 
