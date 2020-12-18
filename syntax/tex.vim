@@ -9,6 +9,10 @@ endif
 
 syntax keyword bugabooWords but  But
 syntax keyword bugabooWords then Then
+
+syntax keyword bugabooWords noticed Noticed
+syntax keyword bugabooWords thought Thought
+syntax keyword bugabooWords wondered Wondered
 highlight link bugabooWords Debug
 
 syntax keyword passiveVerbs is am are was were
@@ -25,8 +29,13 @@ syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
 highlight link passiveVerbs Statement
 
+syntax keyword activeVerbs  asked
+syntax keyword activeVerbs  bought
 syntax keyword activeVerbs  drove
+syntax keyword activeVerbs  looked
 syntax keyword activeVerbs  messaged
+syntax keyword activeVerbs  wear
+syntax keyword activeVerbs  wore
 highlight link activeVerbs  WarningMsg
 
 
