@@ -11,12 +11,12 @@ syntax keyword bugabooWords but  But
 syntax keyword bugabooWords then Then
 highlight link bugabooWords Debug
 
-syntex keyword passiveVerbs is am are was were
-syntex keyword passiveVerbs be being been
-syntex keyword passiveVerbs do does did
-syntex keyword passiveVerbs has have had
-syntex keyword passiveVerbs could would should
-syntex keyword passiveVerbs can will shall
+syntax keyword passiveVerbs is am are was were
+syntax keyword passiveVerbs be being been
+syntax keyword passiveVerbs do does did
+syntax keyword passiveVerbs has have had
+syntax keyword passiveVerbs could would should
+syntax keyword passiveVerbs can will shall
 highlight link passiveVerbs Debug
 
 "-------------------------------------------------------------------------------
