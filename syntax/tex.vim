@@ -29,7 +29,12 @@ syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
 syntax keyword passiveVerbs I'm
 syntax keyword passiveVerbs you're You're
+syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
+
+syntax match infinitiveVerbs /to look/
+syntax match infinitiveVerbs /to speak/
+syntax match infinitiveVerbs /to watch/
 
 syntax keyword activeVerbs  asked
 syntax keyword activeVerbs  bought
@@ -41,6 +46,8 @@ syntax keyword activeVerbs  looked
 syntax keyword activeVerbs  messaged
 syntax keyword activeVerbs  speak
 syntax keyword activeVerbs  spoke
+syntax keyword activeVerbs  tell
+syntax keyword activeVerbs  told
 syntax keyword activeVerbs  wear
 syntax keyword activeVerbs  wore
 highlight link activeVerbs  WarningMsg
