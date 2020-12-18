@@ -32,6 +32,7 @@ syntax keyword passiveVerbs you're You're You've
 syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
 
+syntax match infinitiveVerbs /\vto dream/
 syntax match infinitiveVerbs /\vto look/
 syntax match infinitiveVerbs /\vto speak/
 syntax match infinitiveVerbs /\vto watch/
@@ -39,6 +40,7 @@ highlight link infinitiveVerbs Statement
 
 syntax keyword activeVerbs  asked
 syntax keyword activeVerbs  bought
+syntax keyword activeVerbs  dream
 syntax keyword activeVerbs  drove
 syntax keyword activeVerbs  knew
 syntax keyword activeVerbs  know
