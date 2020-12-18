@@ -30,6 +30,7 @@ syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
 syntax keyword passiveVerbs I'm I've
 syntax keyword passiveVerbs it's It's
+syntax keyword passiveVerbs we'd We'd
 syntax keyword passiveVerbs you're You're You've
 syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
