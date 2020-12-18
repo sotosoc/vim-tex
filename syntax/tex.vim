@@ -17,6 +17,12 @@ syntax keyword passiveVerbs do does did
 syntax keyword passiveVerbs has have had
 syntax keyword passiveVerbs could would should
 syntax keyword passiveVerbs can will shall
+syntax keyword passiveVerbs Is Am Are Was Were
+syntax keyword passiveVerbs Be Being Been
+syntax keyword passiveVerbs Do Does Did
+syntax keyword passiveVerbs Has Have Had
+syntax keyword passiveVerbs Could Would Should
+syntax keyword passiveVerbs Can Will Shall
 highlight link passiveVerbs Debug
 
 "-------------------------------------------------------------------------------
