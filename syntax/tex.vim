@@ -23,7 +23,12 @@ syntax keyword passiveVerbs Do Does Did
 syntax keyword passiveVerbs Has Have Had
 syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
-highlight link passiveVerbs Debug
+highlight link passiveVerbs Statement
+
+syntax keyword activeVerbs  drove
+syntax keyword activeVerbs  messaged
+highlight link activeVerbs  WarningMsg
+
 
 "-------------------------------------------------------------------------------
 " tex is case-sensitive (macros for example)
