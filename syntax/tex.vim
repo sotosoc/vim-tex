@@ -32,9 +32,9 @@ syntax keyword passiveVerbs you're You're
 syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
 
-syntax match infinitiveVerbs /to look/
-syntax match infinitiveVerbs /to speak/
-syntax match infinitiveVerbs /to watch/
+syntax match infinitiveVerbs /\vto look/
+syntax match infinitiveVerbs /\vto speak/
+syntax match infinitiveVerbs /\vto watch/
 highlight link infinitiveVerbs Statement
 
 syntax keyword activeVerbs  asked
