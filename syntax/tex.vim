@@ -34,8 +34,13 @@ highlight link passiveVerbs Statement
 syntax keyword activeVerbs  asked
 syntax keyword activeVerbs  bought
 syntax keyword activeVerbs  drove
+syntax keyword activeVerbs  knew
+syntax keyword activeVerbs  know
+syntax keyword activeVerbs  look
 syntax keyword activeVerbs  looked
 syntax keyword activeVerbs  messaged
+syntax keyword activeVerbs  speak
+syntax keyword activeVerbs  spoke
 syntax keyword activeVerbs  wear
 syntax keyword activeVerbs  wore
 highlight link activeVerbs  WarningMsg
