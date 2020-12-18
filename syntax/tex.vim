@@ -27,6 +27,7 @@ syntax keyword passiveVerbs Do Does Did
 syntax keyword passiveVerbs Has Have Had
 syntax keyword passiveVerbs Could Would Should
 syntax keyword passiveVerbs Can Will Shall
+syntax match   passiveVerbs /'m/
 highlight link passiveVerbs Statement
 
 syntax keyword activeVerbs  asked
