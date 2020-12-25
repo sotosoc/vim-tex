@@ -8,8 +8,9 @@ endif
 "setlocal iskeyword+=:
 
 syntax keyword bugabooWords but  But
-syntax keyword bugabooWords then Then
 syntax keyword bugabooWords just Just
+syntax keyword bugabooWords so   So
+syntax keyword bugabooWords then Then
 
 syntax keyword bugabooWords noticed Noticed
 syntax keyword bugabooWords thought Thought
@@ -36,8 +37,11 @@ syntax keyword passiveVerbs Let's
 highlight link passiveVerbs Statement
 
 syntax match infinitiveVerbs /\vto dream/
+syntax match infinitiveVerbs /\vto driving/
 syntax match infinitiveVerbs /\vto look/
 syntax match infinitiveVerbs /\vto speak/
+syntax match infinitiveVerbs /\vto tossing/
+syntax match infinitiveVerbs /\vto waiting/
 syntax match infinitiveVerbs /\vto watch/
 highlight link infinitiveVerbs Statement
 
@@ -57,6 +61,7 @@ syntax keyword activeVerbs  tell
 syntax keyword activeVerbs  think
 syntax keyword activeVerbs  told
 syntax keyword activeVerbs  wear
+syntax keyword activeVerbs  went
 syntax keyword activeVerbs  wore
 syntax keyword activeVerbs  worn
 highlight link activeVerbs  WarningMsg
