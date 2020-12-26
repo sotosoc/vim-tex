@@ -16,7 +16,7 @@ syntax keyword bugabooWords then Then
 syntax keyword bugabooWords noticed Noticed
 syntax keyword bugabooWords thought Thought
 syntax keyword bugabooWords wondered Wondered
-highlight link bugabooWords Statement
+highlight link bugabooWords Debug
 
 syntax keyword passiveVerbs is am are was were
 syntax keyword passiveVerbs be being been
@@ -35,7 +35,7 @@ syntax keyword passiveVerbs it's It's
 syntax keyword passiveVerbs we'd We'd
 syntax keyword passiveVerbs you're You're You've
 syntax keyword passiveVerbs Let's
-highlight link passiveVerbs Statement
+highlight link passiveVerbs Debug
 
 syntax match infinitiveVerbs /\vto dream/
 syntax match infinitiveVerbs /\vto driving/
@@ -44,7 +44,7 @@ syntax match infinitiveVerbs /\vto speak/
 syntax match infinitiveVerbs /\vto tossing/
 syntax match infinitiveVerbs /\vto waiting/
 syntax match infinitiveVerbs /\vto watch/
-highlight link infinitiveVerbs Statement
+highlight link infinitiveVerbs Debug
 
 syntax keyword activeVerbs  asked
 syntax keyword activeVerbs  bought
