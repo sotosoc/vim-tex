@@ -9,6 +9,7 @@ endif
 
 syntax keyword bugabooWords but  But
 syntax keyword bugabooWords just Just
+syntax keyword bugabooWords that That
 syntax keyword bugabooWords so   So
 syntax keyword bugabooWords then Then
 
