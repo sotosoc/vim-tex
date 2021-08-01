@@ -1,6 +1,5 @@
 let tex_conceal=''
 setlocal conceallevel=0
-setlocal tw=80
 setlocal cc=81
 setlocal number
 
@@ -8,6 +7,9 @@ setlocal number
 " to make spell checking work in all parts of the .tex file.
 "syntax spell toplevel
 set nospell
+
+" highlight environments
+:match DiffDelete /\v^ *\\<begin|end>/
 
 let b:comment_leader = '% '
 
