@@ -9,7 +9,7 @@ setlocal number
 set nospell
 
 " highlight environments
-:match DiffDelete /\v^ *\\<begin|end>/
+:match DiffDelete /\v^ *\\<(begin|end)>/
 
 let b:comment_leader = '% '
 
