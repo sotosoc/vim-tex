@@ -21,7 +21,7 @@ highlight link texNotes Todo
 "-------------------------------------------------------------------------------
 " TeX Macros -- catchall lower-case macro names
 "-------------------------------------------------------------------------------
-syntax match texCommand /\v\\[a-z]+>/
+syntax match texCommand /\v\\[a-zA-Z]+>/
 syntax match texCommand /\v\\[ ]/
 
 highlight link texCommand Macro
