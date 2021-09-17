@@ -22,14 +22,14 @@ highlight link texNotes Todo
 " TeX Macros -- catchall lower-case macro names
 "-------------------------------------------------------------------------------
 syntax match texCommand /\v\\[a-zA-Z]+>/
-syntax match texCommand /\v\\[ ]/
+"syntax match texCommand /\v\\[ ]/
 
 highlight link texCommand Macro
 
 "-------------------------------------------------------------------------------
 " Errors
 "-------------------------------------------------------------------------------
-syntax match sbsrError /\v^[^%]*\zs\/[a-z]+\/\se/
+syntax match sbsrError /\v\/[a-z]+\//
 
 highlight link sbsrError Error
 
