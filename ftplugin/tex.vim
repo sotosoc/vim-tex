@@ -8,11 +8,6 @@ setlocal number
 "syntax spell toplevel
 set nospell
 
-" highlight environments
-:match DiffChange /\v^ *\\<(chapter|section|subsection)>/
-:2match DiffDelete /\v^ *\\<(begin|end)>/
-:3match Error /\v^[^%]*\zs\/[a-z]+\//
-
 let b:comment_leader = '% '
 
 function! TexFold()

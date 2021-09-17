@@ -26,6 +26,13 @@ syntax match texCommand /\v\\[ ]/
 
 highlight link texCommand Macro
 
+"-------------------------------------------------------------------------------
+" Errors
+"-------------------------------------------------------------------------------
+syntax match sbsrError /\v^[^%]*\zs\/[a-z]+\/\se/
+
+highlight link sbsrError Error
+
 " CONSIDER: $SBSR/books/lessons/structure.tex
 " ELIMINATE: $SBSR/books/packages/commands.tex
 "-------------------------------------------------------------------------------
