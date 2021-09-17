@@ -11,6 +11,7 @@ set nospell
 " highlight environments
 :match DiffChange /\v^ *\\<(chapter|section|subsection)>/
 :2match DiffDelete /\v^ *\\<(begin|end)>/
+:3match Error /\v\/[a-z]+\//
 
 let b:comment_leader = '% '
 
