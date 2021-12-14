@@ -3,6 +3,8 @@ setlocal conceallevel=0
 setlocal cc=81
 setlocal number
 
+match MatchParen /\v^.*section.*/
+
 " the following is actually and really done in ~/.vim/after/syntax/tex.vim
 " to make spell checking work in all parts of the .tex file.
 "syntax spell toplevel
@@ -71,3 +73,7 @@ if has("folding") "&& exists("g:tex_folding")
   setlocal foldlevel=4
   "let b:undo_ftplugin .= " foldexpr< foldmethod<"
 endif
+
+" PURPOSE: Tex autoindenting was annoying beyond belief
+setlocal indentexpr=
+
