@@ -10,6 +10,9 @@ match MatchParen /\v^.*section.*/
 "syntax spell toplevel
 set nospell
 
+" PURPOSE: Prevent re-indentation of lines while editing
+let b:did_indent = 1
+
 let b:comment_leader = '% '
 
 function! TexFold()
