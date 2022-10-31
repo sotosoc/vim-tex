@@ -3,7 +3,8 @@ setlocal conceallevel=0
 setlocal cc=81
 setlocal number
 
-match MatchParen /\v^\\(chapter|section|subsection)/
+match CursorLineNr /\v^\\chapter/
+2match Question /\v^\\(section|subsection)/
 
 " the following is actually and really done in ~/.vim/after/syntax/tex.vim
 " to make spell checking work in all parts of the .tex file.
