@@ -20,19 +20,19 @@ function! TexFold()
   let line = getline(v:lnum)
 
   " chapter/section documents
-  if (line =~ '^(\\cc|\\np)?\\\<chapter\>')
+  if (line =~ '^\\..\\\<chapter\>')
     return ">1"
   endif
 
-  if (line =~ '^(\\cc|\\np)?\\\<section\>')
+  if (line =~ '^\\..\\\\\<section\>')
     return ">2"
   endif
 
-  if (line =~ '^(\\cc|\\np)?\\\<subsection\>')
+  if (line =~ '^\\..\\\<subsection\>')
     return ">3"
   endif
 
-  if (line =~ '^(\\cc|\\np)?\\\<subsubsection\>')
+  if (line =~ '^\\..\\\<subsubsection\>')
     return ">4"
   endif
 
