@@ -3,8 +3,8 @@ setlocal conceallevel=0
 setlocal cc=81
 setlocal number
 
-match CursorLineNr /\v^\\chapter/
-2match Question /\v^\\(section|subsection)/
+match  Error      /\v^\\cc\\(chapter|section|subsection|subsubsection)/
+2match DiffDelete /\v^\\np\\(chapter|section|subsection|subsubsection)/
 
 " the following is actually and really done in ~/.vim/after/syntax/tex.vim
 " to make spell checking work in all parts of the .tex file.
@@ -20,19 +20,19 @@ function! TexFold()
   let line = getline(v:lnum)
 
   " chapter/section documents
-  if (line =~ '^\\..\\\<chapter\>')
+  if (line =~ '^....\<chapter\>')
     return ">1"
   endif
 
-  if (line =~ '^\\..\\\\\<section\>')
+  if (line =~ '^....\<section\>')
     return ">2"
   endif
 
-  if (line =~ '^\\..\\\<subsection\>')
+  if (line =~ '^....\<subsection\>')
     return ">3"
   endif
 
-  if (line =~ '^\\..\\\<subsubsection\>')
+  if (line =~ '^....\<subsubsection\>')
     return ">4"
   endif
 
