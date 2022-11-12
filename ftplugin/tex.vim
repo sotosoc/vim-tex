@@ -19,51 +19,20 @@ let b:comment_leader = '% '
 function! TexFold()
   let line = getline(v:lnum)
 
-  " part/input documents
-  if (line =~ '\v\\part>')
-    return ">1"
-  endif
-
-  " step/substep documents
-  if (line =~ '^.\<step\>')
-    return ">1"
-  endif
-
-  if (line =~ '^.\<substep\>')
-    return ">2"
-  endif
-
-  if (line =~ '^.\<subsubstep\>')
-    return ">3"
-  endif
-
-  " exercise/subexercise documents
-  if (line =~ '^.\<exercise\>')
-    return ">1"
-  endif
-
-  if (line =~ '^.\<subexercise\>')
-    return ">2"
-  endif
-
-  if (line =~ '^.\<subsubexercise\>')
-    return ">3"
-  endif
-
   " chapter/section documents
-  if (line =~ '^.\<chapter\>')
+  if (line =~ '^(\\cc|\\np)?\\\<chapter\>')
     return ">1"
   endif
 
-  if (line =~ '^.\<section\>')
+  if (line =~ '^(\\cc|\\np)?\\\<section\>')
     return ">2"
   endif
 
-  if (line =~ '^.\<subsection\>')
+  if (line =~ '^(\\cc|\\np)?\\\<subsection\>')
     return ">3"
   endif
 
-  if (line =~ '^.\<subsubsection\>')
+  if (line =~ '^(\\cc|\\np)?\\\<subsubsection\>')
     return ">4"
   endif
 
